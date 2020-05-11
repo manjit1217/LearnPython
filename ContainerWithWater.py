@@ -8,4 +8,3 @@ def maxArea( height):
     return res
 
 x=maxArea([4,9,12,7,8,14])
-print(x)
