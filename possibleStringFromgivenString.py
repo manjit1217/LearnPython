@@ -11,12 +11,9 @@ def permutation(s,step=0):
     for i in range(step,len(string)):
         string[step],string[i]=string[i],string[step]
         permutation(string, step+1)
-        #print('------',string)
+        print('------',string)
 
 
 
 
-
-
-
-permutation(['for', 'ge', 'abc', 'ks', 'e', 'xyz'])
+permutation(['a','b','c'])
