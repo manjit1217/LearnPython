@@ -6,6 +6,7 @@ def minimumBribes(Q):
     moves = 0
     print(list(enumerate(Q)))
     Q = [P-1 for P in Q]
+    print(Q)
     print(list(enumerate(Q)))
 
     for i,P in enumerate(Q):

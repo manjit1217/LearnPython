@@ -12,16 +12,16 @@ sorted_array=[]
 #     print(x)
 
 
-# def min(array):
-#     minval=array[0]
-#     for i in range(len(array)):
-#         if(array[i]<minval):
-#             minval=array[i]
-#     return minval
+def min(array):
+    minval=array[0]
+    for i in range(len(array)):
+        if(array[i]<minval):
+            minval=array[i]
+    return minval
 
-# def swap(list,i,j):
-#     list[i],list[j]=list[j],list[i]
-#     return list
+def swap(list,i,j):
+    list[i],list[j]=list[j],list[i]
+    return list
 
 def selectionsort(unsorted):
     for i in range(len(unsorted)):

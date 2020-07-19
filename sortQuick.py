@@ -28,5 +28,5 @@ def quickSort(numbers,h,l):
 
 
 
-numbers=[10,80,30,90,720,20,70]
+numbers=[1,5,7,9,10,14,16]
 print(quickSort(numbers,len(numbers)-1,0))

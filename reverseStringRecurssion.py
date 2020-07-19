@@ -12,11 +12,11 @@ s="MANJIT"
 
 
 def rev(s):
+    reverse_string=[]
     if(len(s)==0):
         return s
     else:
         last_char=s[len(s)-1]
-        print(last_char)
+        reverse_string.append(last_char)
         return rev(s[:len(s)-1])
-
-rev(s)
+str(rev(s))

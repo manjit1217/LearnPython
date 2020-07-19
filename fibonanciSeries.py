@@ -8,6 +8,8 @@ def fibonacci(n):
     else:
         temp_fib = fibonacci(n - 1) + fibonacci(n - 2)
         FibArray.append(temp_fib)
+        print(FibArray)
+        print(temp_fib)
         return temp_fib
 
     # Driver Program

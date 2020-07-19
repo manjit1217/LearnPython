@@ -1,10 +1,19 @@
-# x={'name':'manjit',
-#    'roll':4}
-#
-# print(x.get('name'))
+name='manjittijnam'
+name2='manjitmanjit'
+dic={}
+a=True
+for i in name:
+    dic[i]=name.count(i)
 
-# a=10
-# b=20
-# print({True: a, False: b} [a < b])
-range(1,5)
-xrange(1,5)
+
+print(dic.fromkeys('m'))
+
+for j in name2:
+    x=name2.count(j)
+    if dic[j]==x:
+            a=True
+    else:
+        a=False
+        break
+print(a)
+print(dic)

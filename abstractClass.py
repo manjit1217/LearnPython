@@ -17,12 +17,13 @@ class HDFC(Bank):
         super(HDFC,self).__init__(name)#by accessing super we can call the superclass constructor
     def interestCalculater(self):
         '''Override the abstract method of the base class'''
-        print('HDFC interest calculation')
+        print('HDFC interest calculation',self.name)
 class ICICI(Bank):
     def interestCalculater(self):
-        print('ICICI interest calculation')
+        print('ICICI interest calculation',self.name)
 #obj=Bank('bank')# it will give error because we can not create an object of abstarct class
 hdfc=HDFC('HDFC')
 icici=ICICI('ICICI')#this is an object of the ICICI class.
 hdfc.interestCalculater()
 hdfc.accountOpening()
+icici.interestCalculater()

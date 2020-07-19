@@ -5,7 +5,6 @@ key=0
 def binarySearch(list,key):
     high=len(list)-1
     low=0
-
     got=False
     while(low<=high  and not got):
         mid = (high + low) // 2
@@ -18,6 +17,4 @@ def binarySearch(list,key):
         print("Found")
     else:
         print("Not Found")
-
-
 binarySearch(list,key)

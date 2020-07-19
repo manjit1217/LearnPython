@@ -6,7 +6,6 @@ arr=[
     [0, 0, 0, 0, 0, 0],
     [0, 0, 0, 0, 0 ,0],]
 hourglass=[]
-print(arr[0][2])
 x=[]
 for i in range(len(arr[0])-1):
     for j in range(len(arr)-2):
